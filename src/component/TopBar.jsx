@@ -18,9 +18,13 @@ function TopBar() {
         </ul>
       </div>
       <div className="topRight">
-        {/* <img className= 'topImage'src="https://image.shutterstock.com/image-vector/man-icon-vector-260nw-1040084344.jpg"alt="profile pic"/> */}
+        <img
+          className="topImg"
+          src="https://image.shutterstock.com/image-vector/man-icon-vector-260nw-1040084344.jpg"
+          alt="profile pic"
+        />
 
-        <i className="topSearchIcon fa-solid fa-user"></i>
+        {/* <i className="topSearchIcon fa-solid fa-user"></i> */}
         <i className="topSearchIcon fa-solid fa-magnifying-glass"></i>
       </div>
     </div>
