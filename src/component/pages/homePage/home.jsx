@@ -1,12 +1,18 @@
 import React from "react";
 import "./home.css";
 import Header from "../../header/header";
+import Post from "../../posts/post";
+import SideBar from "../../sideBar/sideBar";
 
 function Home() {
   return (
-    <div className="home">
+    <>
       <Header />
-    </div>
+      <div className="home">
+        <Post />
+        <SideBar />
+      </div>
+    </>
   );
 }
 
